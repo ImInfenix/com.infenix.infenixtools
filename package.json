@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "displayName": "Infenix Tools",
   "type": "library",
-  "description": "A package regrouping my frequently used code for Unity.\n\nDetailed content below\n\t- Design Patterns (Singleton, State Machine)\n\t- Data Structures (Grid, Binder, IdGenerator)\n\t- Pathfinding",
+  "description": "A package regrouping my frequently used code for Unity.\n\nDetailed content below\n\t- Design Patterns (Singleton, State Machine)\n\t- Data Structures (Grid, Binder, IdGenerator)",
   "unity": "2020.3",
-  "dependencies": {},
   "keywords": [
     "library",
     "utility"

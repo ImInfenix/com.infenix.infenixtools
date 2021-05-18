@@ -9,4 +9,3 @@ Detailed content
   - Grid
   - Binder
   - IdGenerator
-- A\* Pathfinding using gameobjects as nodes

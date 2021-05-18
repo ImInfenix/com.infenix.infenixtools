@@ -1,12 +1,12 @@
-A package regrouping my frequently used code for Unity.
+1.0 \- Features
 
-Detailed content
+Design Patterns
 
-- Design Patterns
-  - Singleton
-  - State Machine
-- Data Structures
-  - Grid
-  - Binder
-  - IdGenerator
-- A\* Pathfinding using gameobjects as nodes
+- Singleton
+- State Machine
+
+Data Structures
+
+- Grid
+- Binder
+- IdGenerator
