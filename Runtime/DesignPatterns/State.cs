@@ -4,19 +4,23 @@ namespace InfenixTools.DesignPatterns
 {
     public abstract class State<T, U> : Singleton<State<T, U>>, IState<U>
     {
-        public event Action onEnter;
-        public event Action onExit;
+        public static event Action OnEnter;
+        public static event Action OnExecute;
+        public static event Action OnExit;
 
-        public virtual void Enter(U objectInstance)
+        public virtual void Enter(U fre)
         {
-            onEnter?.Invoke();
+            OnEnter?.Invoke();
         }
 
-        public abstract void Execute(U objectInstance);
+        public virtual void Execute(U objectInstance)
+        {
+            OnExecute?.Invoke();
+        }
 
         public virtual void Exit(U objectInstance)
         {
-            onExit?.Invoke();
+            OnExit?.Invoke();
         }
     }
 }
