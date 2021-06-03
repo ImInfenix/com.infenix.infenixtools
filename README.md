@@ -1,6 +1,14 @@
 A package regrouping my frequently used code for Unity.
 
-Detailed content
+# Installation
+In the Unity Package Manager, select the + icon and "Add package from git URL..."
+
+Then copy the repository url
+```
+https://github.com/ImInfenix/com.infenix.infenixtools.git
+```
+
+# Detailed content
 
 - Design Patterns
   - Singleton
